@@ -1,0 +1,121 @@
+body{
+	background: #27ae60;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar a.banner{
+	font-size: 18px;
+	color: #1B7738;
+	font-weight: bold;
+}
+.navbar a.banner:hover{
+	color: #25A74E;
+}
+.fa-btn{
+	margin-right: 6px;
+}
+h3.title{
+	color: #fff;
+}
+/* Cambio de color en fecha cita */
+.date-cita{
+	color: #fff;
+	font-size: 15px;
+}
+/*css para autocomplete*/
+.search .form-control{
+  margin-bottom: 5px;
+}
+
+/*texto pequeño*/
+.small-font{
+    font-size:70%;
+}
+/*Botones cambiados*/
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+.btn-primary.btn-outline:hover{
+    background-color: #018FC5;
+    border-color: #018FC5;
+    color: #FFFFFF;
+}
+.btn-primary.btn-outline {
+    background-color: #fff;
+    border-color: #018FC5;
+    color: #018FC5;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+/* Botones cambiados */
+
+/* Paneles con pestañas */
+.panel.with-nav-tabs.panel-clinica{
+    border-color: #27ae60;
+}
+.panel.with-nav-tabs > .panel-heading{
+    padding: 5px 5px 0 5px;
+    background-color: #ECF0F1;
+    border-color: #27ae60;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+/*** PANEL CLINICA ***/
+.with-nav-tabs.panel-clinica .nav-tabs > li > a,
+.with-nav-tabs.panel-clinica .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-clinica .nav-tabs > li > a:focus {
+    color: #3d3d3d;
+}
+.with-nav-tabs.panel-clinica .nav-tabs > .open > a,
+.with-nav-tabs.panel-clinica .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-clinica .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-clinica .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-clinica .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #27ae60;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-clinica .nav-tabs > li.active > a,
+.with-nav-tabs.panel-clinica .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-clinica .nav-tabs > li.active > a:focus {
+	color: #27ae60;
+	background-color: #fff;
+	border-color: #27ae60;
+	border-bottom-color: transparent;
+}
+
+/* Filter panel */
+span.filter i {
+    cursor: pointer;
+}
+span.filter {
+    float: right;
+}
+/* Filter panel */
